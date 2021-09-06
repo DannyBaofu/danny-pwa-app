@@ -19,12 +19,11 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/Homepage" component={Homepage} />
         <Route path='/Aboutme' component={Aboutme} />
         <Route path='/Archievement' component={Archievement} />
         <Route path="/Project" component={Project} />
         <Route path="/Contactpage" component = {Contactpage}/>
-        <Route path="/" />
+        <Route path="/" component ={Homepage} />
       </Switch>
 
 
