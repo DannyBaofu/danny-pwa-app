@@ -19,6 +19,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
+        <Route path="/" component={Homepage} />
         <Route path="/Homepage" component={Homepage} />
         <Route path='/Aboutme' component={Aboutme} />
         <Route path='/Archievement' component={Archievement} />
