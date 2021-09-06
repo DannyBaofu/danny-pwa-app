@@ -22,7 +22,7 @@ const Navbars = () => {
          <i class="fas fa-bars"></i>
          </label>
          <ul>
-            <NavLink class="navbardesign" to="/Homepage"><li>Home</li></NavLink>
+            <NavLink class="navbardesign" to="/"><li>Home</li></NavLink>
             <NavLink class="navbardesign" to="/Aboutme"><li>About</li></NavLink>
             <NavLink class="navbardesign" to="/Archievement"><li>Skills</li></NavLink>
             <NavLink class="navbardesign" to="/Project"><li>Projects</li></NavLink>
